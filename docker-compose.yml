@@ -12,5 +12,4 @@ services:
       API_KEY: "atolovekey" # 여기에 API 키를 채워넣으세요.
     volumes:
       - ./app:/app # 현재 디렉토리를 컨테이너의 /app 디렉토리에 바인드
-      - ./data:/data
     restart: always
