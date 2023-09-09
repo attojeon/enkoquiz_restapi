@@ -10,7 +10,6 @@ ENV PYTHONUNBUFFERED=1
 # 작업디렉토리 설정 
 WORKDIR /app
 COPY app/ . 
-COPY data/ .
 
 # Install pip requirements
 COPY requirements.txt .
