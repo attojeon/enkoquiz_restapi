@@ -7,7 +7,7 @@ services:
       context: .
       dockerfile: ./Dockerfile
     ports:
-      - 10120:8080
+      - 10120:8090
     environment:
       API_KEY: "atolovekey" # 여기에 API 키를 채워넣으세요.
     volumes:
